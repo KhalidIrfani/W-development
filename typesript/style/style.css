@@ -1,0 +1,162 @@
+a{
+  text-decoration: none;
+}
+
+#header{
+  color: white;
+  background-color: #e74c3e; 
+   
+}
+#header {
+    margin: 0;
+    padding: 0;
+   list-style: none;
+}
+
+#header h1{
+  margin-top: 5px;
+  font-size: 2rem;
+}
+
+#header li{
+ display: inline-block;
+  
+
+}
+#header li{
+  float: right;
+}
+
+#header li a{
+  color: white;
+  padding: 15px 10px;
+  display: block;
+}
+
+#header li a:hover{
+  background-color: #c0392b;
+}
+
+#banner{
+  background: url(../img/banner\ \(2\).jpg) no-repeat 0 0;
+  background-size: cover;
+  
+}
+.bannertitle{
+ padding-top: 7rem;
+}
+.bannertitle h1.title {
+  display: inline-block;
+   background-color: white;
+  padding: 10px;
+  margin: 0;
+
+}
+
+.bannertitle p.lead{
+  background-color: #e74c3e;
+  color: white;
+}
+
+.subtitle h2:after{
+background-color: #e74c3e;
+content: "";
+display: block;
+width: 100px;
+height: 3px;
+margin: 20px auto;
+}
+
+.subtitle{
+  text-align: center;
+  padding: 20px;
+}
+.subtitle i.fa{
+  color: #e74c3e;
+  font-size: 30px;
+}
+
+#tesi{
+  color: white;
+background: url(../img/back.jpg) no-repeat 0 0;
+background-size: 100% 100%;
+padding: 20px 0;
+position: relative;
+ 
+}
+
+#tesi::before{
+  background-color:rgba(52, 73, 94, 0.3);
+  position: absolute;
+  content: "";
+  top: 0;
+  width: 100%;
+  height: 100%;
+ 
+}
+
+ #tesi .img1{
+  clip-path: circle(38.0% at 47% 36%);
+   width: 18%;
+  
+ }
+ 
+ #tesi .img{
+  clip-path: circle(42.0% at 47% 42%);
+  width: 19%;
+ }
+
+ .new-post img{
+  width: 100%;
+  padding-bottom: 10px;
+ }
+ 
+ .new-post h3,a{
+  color: #e74c3e;
+ }
+
+ .new-post a{
+  padding: 20px;
+  
+ }
+
+ .new-post a:hover{
+  color: #e74c3e;
+  
+ }
+
+ #footer h3{
+  padding-top: 10px;
+ }
+ #footer{
+  margin-top: 40px;
+ 
+  background-color:rgba(52, 73, 94);
+  color: white;
+ }
+
+ 
+ 
+ #footer h3:after{
+  background-color: white;
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+ margin: 7px;
+  }
+
+  #mainfooter {
+  
+    margin-top: 30px;
+    background-color:rgb(22, 32, 43) ;
+    height: 40px;
+    width: 100%;
+  }
+  #mainfooter .copy{
+    color: white}
+  #mainfooter .copy1{
+    color: white;
+    font-size: 20px;
+  }
+ 

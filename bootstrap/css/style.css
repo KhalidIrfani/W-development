@@ -1,0 +1,23 @@
+.container {
+    border: 2px solid black;
+}
+
+.row {
+    border: 2px solid orangered;
+}
+
+.col {
+    border: 2px solid black;
+}
+
+.col-9 {
+    border: 2px solid rgb(24, 23, 23);
+}
+
+.col-3 {
+    border: 2px solid rgb(24, 23, 23);
+}
+
+.col-4 {
+    border: 2px solid rgb(24, 22, 22);
+}

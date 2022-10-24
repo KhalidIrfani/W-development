@@ -1,0 +1,244 @@
+.header .nav-link  .nav-item{
+    color: white;
+    text-decoration: none;
+    
+     
+}
+
+.header .nav-link  .nav-item:hover{
+    color:rgb(19, 54, 54);
+   
+}
+
+h1, h2, h3, p{
+     color: white;
+}
+
+ 
+.banner{
+    margin-top:50px;
+    padding: 4.25rem;
+    background-image: url(../img/banner.jpg) ;
+    background-size: cover ;
+}
+@media only screen and (max-width: 600px) {
+    .banner {margin-top: 0;
+        animation:bouncy 3s linear infinite;
+            animation-play-state:paused;
+    }
+ 
+  }
+  
+
+ 
+
+.col-sm-12 .img1{
+    margin-top: 20px;
+}
+
+.card  {
+    margin-top:20px;
+}
+.animate-img .img1{
+    animation:bouncy 3s linear infinite;
+    
+    animation-play-state:paused;
+    animation-delay: .3s;
+    
+} 
+@keyframes bouncy{
+    0%{ transform: translateY(0);}
+    50%{transform: translateY(-100px);}
+    100%{transform: translateY(0);}
+}
+
+.slider .im3{
+    margin: 10%;
+   height: 65%;
+   background-image: url(../img/blog2.jpg);
+   animation: slide  10s infinite;
+    
+}
+
+@keyframes slide{
+    0%{
+        background-image: url(../img/blog1.jpg);
+    }
+    50%{
+        background-image: url(../img/blog3.jpg);
+    }
+    75%{
+        background-image: url(../img/blog4.jpg);
+    }
+    100%{
+        background-image: url(../img/blog2.jpg);
+    }
+}
+
+/* .animate-img2 .img2{
+    animation:bouncy 3s linear infinite;
+    
+} 
+@keyframes bouncy{
+    0%{ transform: translateY(0);}
+    50%{transform: translateY(-80px);}
+    100%{transform: translateY(0);}
+} */
+
+
+
+.main-btn{
+    display: inline-block;
+    border: .625rem;
+    color:white;
+    text-align: center;
+    padding: .75rem, 1.37rem;
+    font-size: 30px;
+    text-transform: capitalize;
+    background:transparent ;
+    font-size: 1.5rem;
+    transition: all .3s ease-in-out;
+    border-radius: .1785rem;
+    text-decoration: none;
+    border:1px solid white ;
+}
+
+.main-btn:hover{
+    background-color: palevioletred;
+    border-color: palevioletred;
+    color: white;
+}
+ 
+.fil-btn{
+    background-color: palevioletred;
+    border-color: palevioletred;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: .1785rem;
+    margin-left: 50px;
+}
+
+.fil-btn:hover{
+    background-color: white;
+    border-color:palevioletred ;
+    color:  black;
+}
+
+ 
+/* 
+@keyframes movebounce{
+    0%{
+        -webkit-transform:translateY(0);
+        transform: translateY(0);
+    }
+    50%{
+        -webkit-transform:translateY(1.25);
+        transform: translateY(1.25);
+    }
+    100%{
+        -webkit-transform:translateY(0);
+        transform: translateY(0);
+    }
+} */
+
+ 
+
+
+.testi h2::after{
+    background-color: #c98078;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 20px auto;
+}
+
+.testi{
+    background-image: url(../img/testimoni.jpg);
+    background-size: cover;
+}
+
+.testi::before{
+    background-color:rgba(58, 90, 122, 0.3);
+    position: relative;
+    content: "";
+    width: 100%;
+    height: 45%;
+}
+ 
+ 
+.testi .img2{
+    margin: 5%;
+    clip-path: circle(40.0% at 47% 50%);
+   width:20%;
+  
+   
+}
+.testi .img3{
+    margin: 5%;
+    clip-path: circle(40.0% at 40% 50%);
+   width:20%;
+   background-color: rgb(55, 137, 139);
+   
+}
+.testi h2{
+     margin: 5%;
+    text-align: center;
+  
+}
+
+
+.gallery h2{
+    margin: 5%;
+    color: black;
+    text-align: center;
+
+}
+
+.gallery h2::after{
+    background-color: #c98078;
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    margin: 10px 48%;
+}
+
+#footer h3{
+    padding-top: 10px;
+   }
+   #footer{
+    margin-top: 40px;
+   
+    background-color:rgb(55, 127, 199);
+    color: white;
+   }
+  
+   
+   
+   #footer h3:after{
+    background-color: white;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+   margin: 7px;
+    }
+  
+    #mainfooter {
+    
+     
+      background-color:rgb(63, 123, 192) ;
+      height: 40px;
+      width: 100%;
+    }
+    #mainfooter .copy{
+      color: white}
+    #mainfooter .copy1{
+      color: white;
+      font-size: 20px;
+    }
+    #mainfooter .copy1 a{
+        color:white;
+    }
