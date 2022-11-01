@@ -6,11 +6,29 @@
     font-family: 'poppins',sans-serif;
 }
 
-body{
+/* body{
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 70vh;
+} */
+ 
+
+  /* User Css */
+
+
+/* .conatiner .user{
+    padding: 25px, 30px;
 }
 
- 
+.conatiner .user header{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+
+
+.conatiner .user header .content{
+    display: flex;
+} */
