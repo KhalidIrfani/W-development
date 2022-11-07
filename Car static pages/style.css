@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.shoe {
+    background-color: darkcyan;
+    margin-top: 10px;
+    width: 100%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shoe #h1 {
+    font-size: 30px;
+    padding-left: 40px;
+}
+
+.shoe #tags a {
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    margin: 0 20px;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-radius: 3px;
+    box-shadow: lightsteelblue;
+}
+
+.shoe a:hover {
+    background-color: white;
+}
+
+.section1 h1 {
+    padding: 30px;
+    background-color: skyblue;
+    text-align: center;
+}
+
+.section h1 {
+    margin: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section .card {
+    border-radius: 10px;
+    margin: 35px;
+    display: inline-block;
+    position: relative;
+}
+
+.section button {
+    color: brown;
+    margin-left: 70px;
+    margin-top: 20px;
+    display: list-item;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.section button:hover {
+    background-color: black;
+    color: white;
+}
+
+.nike h1 {
+    text-align: center;
+}
+
+.nike .card {
+    border-radius: 10px;
+    margin: 45px;
+    display: inline-block;
+    position: relative;
+}
+
+.nike button {
+    color: brown;
+    margin-left: 70px;
+    margin-top: 20px;
+    display: list-item;
+    cursor: pointer;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+
+.nike button:hover {
+    background-color: black;
+    color: white;
+}
+
+.formal h1 {
+    text-align: center;
+}
+
+.formal .card {
+    border-radius: 10px;
+    margin: 40px;
+    display: inline-block;
+    position: relative;
+}
+
+.formal button {
+    font-size: 30px;
+    color: brown;
+    margin-left: 70px;
+    margin-top: 20px;
+    display: list-item;
+    cursor: pointer;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.formal button:hover {
+    background-color: black;
+    color: white;
+}
+
+.casual h1 {
+    text-align: center;
+}
+
+.casual .card {
+    border-radius: 10px;
+    margin: 47px;
+    display: inline-block;
+    position: relative;
+}
+
+.casual button {
+    font-size: 30px;
+    color: black;
+    margin-left: 70px;
+    margin-top: 20px;
+    display: list-item;
+    cursor: pointer;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.casual button:hover {
+    background-color: black;
+    color: white;
+}
+
+.puma h1 {
+    text-align: center;
+}
+
+.puma .card {
+    border-radius: 10px;
+    margin: 40px;
+    display: inline-block;
+    position: relative;
+}
+
+.puma button {
+    font-size: 30px;
+    color: black;
+    margin-left: 70px;
+    margin-top: 20px;
+    display: list-item;
+    cursor: pointer;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.puma button:hover {
+    background-color: black;
+    color: white;
+}
+
+.row {
+    margin-left: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: #24262b;
+    padding: 70px 0;
+}
+
+.footer-col {
+    width: 20%;
+    padding: 0 15px;
+}
+
+.footer-col h1 {
+    font-size: 28;
+    color: #ffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    position: relative;
+    font-weight: bold;
+}
+
+.footer-col h1::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    box-sizing: border-box;
+    height: 2px;
+    width: 50px;
+}
+
+.footer-col ul li :not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 18px;
+    text-transform: capitalize;
+    text-decoration: none;
+    display: block;
+    font-weight: 300;
+    color: #bbb;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffff;
+    padding-left: 10px;
+}
+
+.copy {
+    color: #ffff;
+    margin-top: 40px;
+    text-align: center;
+}
