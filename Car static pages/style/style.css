@@ -7,20 +7,7 @@
     display: flex;
     margin-bottom: 2rem;
 }
-
-.header .left {
-    margin-top: .5rem;
-    /* display: flex; */
-    /* width: 35%; */
-}
-
-/* .header .left h1 {
-    color: white;
-    font-size: 30px;
-    font-weight: bold;
-    margin-top: .8rem;
-    padding-left: 15px;
-} */
+ 
 .navbar ul {
  
     display: flex;

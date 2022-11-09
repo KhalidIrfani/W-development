@@ -1,0 +1,8 @@
+
+InstallUtil.exe C:\Users\Irfani\source\repos\WindowsService1\WindowsService1\bin\Debug\
+WindowsService1.exe
+
+
+C:\Users\Irfani\source\repos\WindowsService1\WindowsService1\bin\Debug
+
+InstallUtil.exe C:\Users\Irfani\source\repos\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe
