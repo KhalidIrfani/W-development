@@ -104,6 +104,22 @@ margin-bottom: 2.5rem;
     overflow: hidden;
 }
 
+.shape{
+    background-color: hsla(219, 33%, 32%, .5);
+    filter: blur(115px);
+    border-radius: 50%;
+}
+
+.shape__big{
+    width: 400px;
+    height: 400px;
+}
+
+.shape__small{
+    width: 300px;
+    height: 300px;
+}
+
 .header{
     width: 100%;
     background-color: transparent;
@@ -192,6 +208,13 @@ padding-top: 9rem;
 
 .show-menu{
     right: 0;
+}
+
+
+.scroll-header{
+    border-radius: 0 0 1rem 1rem;
+    background-color:var(--body-color);
+    box-shadow: 0 2px 4px hsla(0, 0%, 1%, 1);
 }
 
 .home{
@@ -301,7 +324,31 @@ padding-top: 9rem;
     animation: button 3s infinite;
 }
 
+.home .shape__big,
+.home .shape__small{
 
+    position: absolute;
+}
+
+.home .shape__big{
+    left: -9rem;
+    top: -4rem;
+}
+
+.home .shape__small{
+    right: -10rem;
+    bottom: 3rem;
+}
+
+@keyframes button{
+    0%{
+        box-shadow: 0 0 12px hsl(158, 98%, 43%);
+    }
+
+    50%{
+        box-shadow: 0 0 24px hsl(158, 98%, 43%);
+    }
+}
 
 
 
